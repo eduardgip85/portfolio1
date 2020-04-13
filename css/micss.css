@@ -1,0 +1,356 @@
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #066aff, #00fff7) !important;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.navbar{
+    font-size: 25px;
+    background-color: #000000;
+}
+
+.navbar li{
+    margin-left: 20px;
+}
+
+.navbar li a{
+    color: white !important;
+}
+
+.navbar li:hover{
+    border-radius: 15px;
+    background-color:#008CBA;
+}
+
+#linea_divisoria{
+    margin-top: 15px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 50px;
+}
+
+/* boton primario */
+.primary_btn{
+    background-color: white; 
+    color: black; 
+    border-radius: 5px;
+    border: 2px solid #008CBA;
+    margin-right: 5px;
+}
+
+.primary_btn:hover{
+    background-color: #008CBA;
+    color: white;
+}
+
+
+/* presentacion area */
+.presentacion_area
+{
+    padding: 200px 150px 200px 250px; /* top- right- bottom- left- */
+    /* background-color: #69b6ec; */
+}
+
+.presentacion_area a
+{ 
+    padding: 10px; /* separacion entre los botones de la presentacion */
+}
+
+/*About area*/
+.about_area
+{
+    /* esto es para centrar todo en el medio
+    margin: auto;
+    width: 50%;
+    */
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #2450ad; */
+    padding: 100px 0px 50px; /* top- right- bottom- left- */
+}
+
+/* Para que parezca una carta */
+.about-us-content{
+    background-color: #fff;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.15);
+    padding: 25px 25px 25px 25px;
+
+    transition: 0.7s ease; /* esta linea esta puesta aqui porque asi el momento de transicion contraria va mas lento */
+}
+
+.about2{
+    margin-top: 50px;
+}
+
+/* skills area */
+.skills_area
+{
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #69b6ec; */
+    padding: 100px 200px; /* top- right- bottom- left- */
+}
+
+#idskillscartas{ /*para que se vean mejor separadas*/
+    padding-bottom: 50px;
+}
+
+#idskillscartas .card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+}
+
+.otherskills{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*Project area */
+.project-area
+{
+    /* background-color: #2450ad; */
+    padding: 100px 200px; /* top- right- bottom- left- */
+}
+
+/*contact area*/
+.contact-area{
+    /* background-color: #2450ad; */
+    padding: 100px 200px; /* top- right- bottom- left- */
+}
+
+ /*social area*/
+ .social-area{
+    background-color: black;
+    padding: 20px 200px 20px 200px; /* top- right- bottom- left- */
+}
+
+.fa{
+    padding: 15px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.fa:hover {
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.fa-facebook:hover{
+    
+    background-color: white;
+}
+
+.fa-linkedin:hover{
+    color: white;
+    background-color: #69b6ec;
+}
+
+.fa-instagram:hover{
+    color: white;
+    background-color: red;
+}
+
+.fa-twitter:hover{
+    color: white;
+    background-color: #69b6ec;
+}
+
+/* tema de inputs (contact )*/
+.single-input{
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    background: #f9f9ff;
+    padding: 0 20px; 
+}
+
+input[type=submit] {
+    border-radius: 15px;
+    background-color: #69b6ec;
+    color: white;
+    margin-top: 15px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+input[type=submit]:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+    border-radius: 5px;
+    background-color: #2591df;
+}
+
+.texto-principal h1
+{
+    font-weight: 700;
+}
+
+#titulo{
+    margin-top: 10%;
+    margin-left: 10%;
+    position: absolute; /* para ver el fondo de particles */
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#titulosection{
+    text-align: center;
+}
+
+/* tema interactividad */
+.botonesvideo{
+    display: none;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+}
+
+.botonesvideo label{
+    padding-bottom: 10px;
+}
+
+/* boton secundario */
+.secondary_btn{
+    background-color: white; 
+    color: black; 
+    border-radius: 5px;
+    border: 2px solid #FF9D00;
+}
+
+.secondary_btn:hover{
+    text-decoration: none;
+    background-color: #FF9D00;
+    color: black;
+}
+
+
+
+
+/* Si la pantalla es mas pequeña que 800px */
+@media (max-width: 800px){
+
+    /* section menu */
+    .navbar{
+        font-size: 20px;
+        background-color: black;
+    }
+
+    /*las tres barras del menu de arriba a la derecha */
+    .navbar-toggler{
+        background-color: white;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        color: #ffffff;
+    }
+
+    .navbar li{
+        margin-left: 5px;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+    }
+
+    /* boton primario */
+    .primary_btn{
+        font-size: 15px;
+        background-color: white; 
+        color: black; 
+        border-radius: 5px;
+        border: 2px solid #008CBA;
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+
+    .primary_btn:hover{
+        background-color: #008CBA;
+        color: white;
+    }
+
+    /* section presentacion */
+    .presentacion_area{
+        display: flex;
+        font-size: 20px;
+        padding: 100px 0px 100px 0px;
+    }
+
+    /*section about*/
+    .presentacion_area img{
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* section about */
+    .about_area
+    {
+        padding: 20px 0px 20px 0px; /* top- right- bottom- left- */
+    }
+
+    /* skills area*/
+    .skills_area
+    {
+        padding: 0px 0px;
+    }
+
+    #idskillscartas{ /*para que se vean sin separarse cuando la pantalla es mas pequeña*/
+        padding-bottom: 0px;
+    }
+
+    /* project area */
+    .project-area
+    {
+        padding: 0px 0px;
+    }
+
+    /*contact area*/
+    .contact-area{
+        padding: 0px 0px;
+    }
+
+    /*social area*/
+    .social-area{
+        padding: 10px 10px;
+    }
+    
+
+}
+
+@media (min-width: 801px){
+
+    .about-us-content:hover
+    {
+        
+        transform: scale(1.2);
+    }
+
+    .skills_area .card:hover /* solo las cartas de la seccion de skills */
+    {
+        transition: 0.7s ease;
+        transform: scale(1.1);
+        box-shadow: 7px 7px 3px rgba(0,0,0,.15);
+    
+    }
+}

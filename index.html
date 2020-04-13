@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/micss.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <title>Portfolio Edu GP</title>
+</head>
+
+<body>
+
+    <!-- Menu superior-->
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="#" onclick="checkCookie('btnHome')">
+                <img src="./img/ed.png" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav" id="nav-menu">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" onclick="checkCookie('btnHome')">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#idabout" onclick="checkCookie('btnAbout')">About</a> <!-- Quien soy-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#idskills" onclick="checkCookie('btnSkills')">Skills</a> <!-- Hard skills y soft skills -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#idproject" onclick="checkCookie('btnPortfolio')">Portfolio</a> <!-- Portfolio-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#idcontact" onclick="checkCookie('btnContacto')">Contact</a> <!-- Contacta-->
+                    </li>
+                
+                </ul>
+            </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Primera section de presentacion-->
+    <section class="presentacion_area">
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner_content">
+                        <h3 class="text-uppercase">Hell0</h3>
+                        <h1 class="text-uppercase">I'm 3duard</h1>
+                        <h5 class="text-uppercase">DAW student (Web application development)</h5>
+                        <h5 class="text-uppercase">In the last months, I have seen that I like the front end more than the back end</h5>
+                        <h5 class="text-uppercase">but I still like both.</h5>
+
+                        <div class="d-flex">
+                            <a class="primary_btn" href="#idcontact" onclick="checkCookie('btnContacto')"><span>Contact</span></a>
+                            <a class="primary_btn" href="#" onclick="btnCV()"><span>Get CV</span></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    
+                    <video id="videopresentacio" src="video/presentacio.mp4" style="width: 100%;" controls></video>
+                    
+                    <!---
+                        Per comprobar el temps 
+                        <p>Playback position: <span id="demo"></span></p> 
+                    -->
+                    
+                    <div class="botonesvideo" id="botonesvideo" style="text-align: center;">
+                        <label id="textoinformativo" for=""></label>
+                        </br>
+                        <a class="secondary_btn" href="#" id="boton1">Ir a</a>
+                        <a class="secondary_btn" href="#" id="boton2">Seguir viendo</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Segunda section de about myself-->
+    <section class="about_area" id="idabout" >
+        <div class="container">
+
+            <div id="titulosection">
+                <h1>ABOUT MYSELF</h1>
+            </div>
+        
+            <div id="linea_divisoria"></div>
+        
+            <div class="about-us-content">
+                <div class="row no-gutters align-items-center">
+                    <div class="col-12 col-md-5">
+                        <div class="about-us-thumb">
+                            <img src="img/about.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="about-us-text">
+                            <h4>LET’S INTRODUCE ABOUT MYSELF</h4>
+                            <!-- INTRODUCcion SOBRE MI-->
+                            <p>
+                                I am a boy who likes to program and right now I am in the CEP where I am studying DAW but previously I finished DAM.
+                            </p>
+                            <p>
+                                In my free time I like to watch programming videos to acquire knowledge, play video games or do my hobby that is calistenia.
+                            </p>
+                            <p>
+                                I would like to find something about web app developer or something similar because I like the web theme and I think there is a lot to learn.
+                            </p>
+                                                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="about-us-content about2">
+                <div class="row no-gutters align-items-center">
+                    <div class="col-12 col-md-5">
+                        <div class="about-us-thumb">
+                            <img src="img/dafo.png" alt="" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="about-us-text">
+                            <h4 class="text-center">DAFO ABOUT ME</h4>
+                            <!-- DAFO-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>
+                                        D (Debilidades - weaknesses)
+                                        <br>
+                                        Low Experience , Creativity
+                                    </p>
+                                </div>
+
+                                <div class="col-6">
+                                    <p>
+                                        A (Amenazas - threats)
+                                        <br>
+                                        Fear of the labour market
+                                    </p>
+                                </div>
+                                
+                                
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>
+                                        F (Fortalezas - strengths)
+                                        <br>
+                                        Positive, sociable attitude, time availability
+                                    </p>
+                                </div>
+
+                                <div class="col-6">
+                                    <p>
+                                        O (Oportunidades - opportunities)
+                                        <br>
+                                        Personal Brand, Portfolio creation
+                                    </p>
+                                </div>
+                                
+                                
+                            </div>
+                                                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+        
+    <!-- Tercera section de Experiencia-->
+    <section class="skills_area" id="idskills">
+        <div class="container-fluid">
+
+            <div id="titulosection">
+                <h1>SKILLS</h1>
+            </div>
+        
+            <div id="linea_divisoria"></div>
+        
+            <div class="card-deck">
+
+                <div class="row no-gutters align-items-center"  id="idskillscartas">
+                  
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/js.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/php.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">PHP</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/mysql.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">MySQL</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                        </div>
+                    </div>   
+
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/vue.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">VUE</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="row no-gutters align-items-center"  id="idskillscartas">
+                  
+                        <div class="card text-center">
+                            <img class="card-img-top" src="img/angular.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Angular</h5>
+                            <p class="card-text">This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card text-center">
+                            <img class="card-img-top" src="img/laravel.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Laravel</h5>
+                            <p class="card-text">This content is a little bit longer.</p>
+                            </div>
+                        </div>
+    
+                        <div class="card text-center">
+                            <img class="card-img-top" src="img/visualcode.ong.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Visual Code</h5>
+                            <p class="card-text">This content is a little bit longer.</p>
+                            </div>
+                        </div>   
+
+                        <div class="card text-center">
+                            <img class="card-img-top" src="img/ionic.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Ionic</h5>
+                            <p class="card-text">This content is a little bit longer.</p>
+                            </div>
+                        </div>   
+                </div>
+
+                <div class="otherskills">
+                    OTHERS SKILLS (SOFT)
+                </div>
+
+                <div class="row no-gutters align-items-center"  id="idskillscartas">
+                  
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/teamwork.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">TEAM WORKING</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/communication.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Communication</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/flexibilidad.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Flexibility</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                        </div>
+                    </div>   
+
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/sociable.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Sociable</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                        </div>
+                    </div>   
+            </div>
+                
+            </div>
+
+            
+
+            
+        </div>
+    </section>
+
+    <!-- Cuarta section de projectes  -->
+
+    <section class="project-area" id="idproject">
+        <div class="container-fluid">
+
+            <div id="titulosection">
+                <h1>PROJECTS</h1>
+            </div>
+        
+            <div id="linea_divisoria"></div>
+        
+            <div class="card-deck">
+
+                <div class="row no-gutters align-items-center">
+                  
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/angular.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Mnactec Project</h5>
+                        <p class="card-text">Descripcion del proyecto en ingles.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/angular.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Broggi Project</h5>
+                        <p class="card-text">Descripcion del proyecto en ingles.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- Quinta section de Contacta con un form -->
+    <section class="contact-area" id="idcontact">
+        <div class="container">
+
+            <div id="titulosection">
+                <h1>Contact</h1>
+            </div>
+        
+            <div id="linea_divisoria"></div>
+        
+            <form>
+                <div class="row">
+                    <div class="col-lg-8">
+                
+                        <input type="text" class="single-input" placeholder="Your Name" value="" required>
+                        <input type="text" class="single-input" placeholder="Email" value="" required>
+                        <textarea id="subject" class="single-input" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
+                        <input class="float-right" type="submit" value="Submit">
+                    </div>
+
+                    <div class="col-lg-4 ">
+                        Foto
+                    </div>
+
+                </form>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Sexta Redes sociales -->
+    <section class="social-area" id="idsocial">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-12 text-center" style="color:white;">
+                        © Made by Eduard Gomà Pulido
+                </div>
+
+                <div class="col-lg-7 col-sm-3">
+                    <div class="text-center">
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- footer © Made by Eduard Gomà Pulido -->
+
+    <!-- porque si no no va el DOM -->
+    <script src="./js/mijs.js"></script>
+</body>
+
+<!-- 
+
+salto a la mateixa pagina
+href="#exemple"
+id="exemple"
+
+-->
+
+
+</html>
