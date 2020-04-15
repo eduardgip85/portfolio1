@@ -45,7 +45,7 @@ vid.ontimeupdate = function() {
   //document.getElementById("demo").innerHTML = vid.currentTime;
 
   //primer if que va a quien soy
-  if(vid.currentTime >= 2.4 &&  vid.currentTime <= 2.6){
+  if(vid.currentTime >= 2.4 &&  vid.currentTime <= 2.65){
     //pausamos video
     vid.pause();
     
@@ -65,7 +65,7 @@ vid.ontimeupdate = function() {
   }else{
 
     //anar a skills
-    if(vid.currentTime >=22 && vid.currentTime <= 22.3){
+    if(vid.currentTime >=22 && vid.currentTime <= 22.25){
       //pausamos video
       vid.pause();
 
@@ -85,7 +85,7 @@ vid.ontimeupdate = function() {
     }else{
 
       //anar a projectes
-      if(vid.currentTime >=71.1 && vid.currentTime <= 71.4){
+      if(vid.currentTime >=71.1 && vid.currentTime <= 71.35){
         //pausamos video
         vid.pause();
 
@@ -104,7 +104,7 @@ vid.ontimeupdate = function() {
       }else{
 
         //anar a contacta
-        if(vid.currentTime >=97.1 && vid.currentTime <= 97.4){
+        if(vid.currentTime >=97.1 && vid.currentTime <= 97.35){
           //pausamos video
           vid.pause();
 
