@@ -397,11 +397,17 @@
                 <div class="row">
                     <div class="col-lg-8">
                 
-                        <input type="text" class="single-input" placeholder="Your Name" value="" required>
-                        <input type="text" class="single-input" placeholder="Email" value="" required>
-                        <textarea id="subject" class="single-input" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <form class="contact-form" action="contactform.php" method="post">
 
-                        <input class="float-right" type="submit" value="Submit">
+                            <input type="text" class="single-input" placeholder="Your Name" name="name" value="" required>
+                            <input type="text" class="single-input" placeholder="Email" name="mail" value="" required>
+                            <input type="text" class="single-input" placeholder="Subject" name="subject" value="" required>
+                            <textarea id="subject" class="single-input" name="message" placeholder="Write something.." style="height:170px"></textarea>
+
+                            <input class="float-right" type="submit" value="Submit">
+
+                        </form>
+
                     </div>
 
                     <div class="col-lg-4 ">
