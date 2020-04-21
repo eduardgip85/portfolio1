@@ -157,7 +157,7 @@ body::-webkit-scrollbar {
     background-color: red;
 }
 
-.fa-twitter:hover{
+.fa-github:hover{
     color: white;
     background-color: #69b6ec;
 }
@@ -241,6 +241,10 @@ input[type=submit]:hover {
     color: black;
 }
 
+/* card de projecte */
+.card-project{
+    height: 35vw;
+}
 
 
 
@@ -335,6 +339,10 @@ input[type=submit]:hover {
         padding: 10px 10px;
     }
     
+    /* card de projecte */
+    .card-project{
+        height: auto;
+    }
 
 }
 
