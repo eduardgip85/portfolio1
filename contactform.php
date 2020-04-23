@@ -11,13 +11,9 @@ if(isset($_POST['submit'])){
     $header = "From: " . $mailFrom;
     $txt = "Has recibido un mail de " . $name . ".\n\n" . $message;
 
-    $mail = mail($mailTo,$subject,$txt,$header);
+    mail($mailTo,$subject,$txt,$header);
 
-    if ($mail){
-        echo "holoa";
-        header("Locatio: index.php?mailsend");
-    }
-    
+    header("Locatio: index.php?mailsend");
     
 }
 
