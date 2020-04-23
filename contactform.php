@@ -11,7 +11,11 @@ if(isset($_POST['submit'])){
     $header = "From: " . $mailFrom;
     $txt = "Has recibido un mail de " . $name . ".\n\n" . $message;
 
-    mail($mailTo,$subject,$txt,$header);
+    if(mail($mailTo,$subject,$txt,$header)){
+        echo 'Your mail has been sent successfully.';
+    } else{
+        echo 'Unable to send email. Please try again.';
+    }
 
     header("Location: index.html?mailsend");
     
