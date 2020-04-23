@@ -230,6 +230,8 @@ input[type=submit]:hover {
 /* boton secundario */
 .secondary_btn{
     background-color: white; 
+    margin-right: 15px;
+    margin-bottom: 5px;
     color: black; 
     border-radius: 5px;
     border: 2px solid #FF9D00;
@@ -244,6 +246,12 @@ input[type=submit]:hover {
 /* card de projecte */
 .card-project{
     height: 35vw;
+}
+
+/* tema logo */
+.navbar-brand img{
+    margin-left: 150px;
+    width: 20%;
 }
 
 
@@ -344,6 +352,10 @@ input[type=submit]:hover {
         height: auto;
     }
 
+    /* tema logo */
+    .navbar-brand img{
+        width: 15%;
+    }
 }
 
 @media (min-width: 801px){
