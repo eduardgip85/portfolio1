@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
     
     $name = $_POST['name'];
     $subject = $_POST['subject'];
-    $mailFrom = $_POST['mailFrom'];
+    $mailFrom = $_POST['mail'];
     $message = $_POST['message'];
 
     $mailTo = "eduardgip85@gmail.com";
@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
 
     mail($mailTo,$subject,$txt,$header);
 
-    header("Locatio: index.php?mailsend");
+    header("Location: index.html?mailsend");
     
 }
 
