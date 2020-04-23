@@ -254,6 +254,21 @@ input[type=submit]:hover {
     width: 20%;
 }
 
+/*btn emial*/
+.emailbtn{
+    background-color: white; 
+    margin-top: 10px;
+    float: right;
+    color: black; 
+    border-radius: 5px;
+    border: 2px solid #FF9D00;
+}
+
+.emailbtn:hover{
+    text-decoration: none;
+    background-color: rgb(255, 171, 37);
+    color: white;
+}
 
 
 /* Si la pantalla es mas pequeña que 800px */
