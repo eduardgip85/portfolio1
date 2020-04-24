@@ -93,10 +93,10 @@
                     -->
                     
                     <div class="botonesvideo" id="botonesvideo" style="text-align: center;">
-                        <label id="textoinformativo" for=""></label>
+                        <label id="textoinformativo" for="" class="text-normal"></label>
                         </br>
-                        <a class="secondary_btn" href="#" id="boton1">Ir a</a>
-                        <a class="secondary_btn" href="#" id="boton2">Seguir viendo</a>
+                        <a class="secondary_btn text-normal" href="#" id="boton1">Ir a</a>
+                        <a class="secondary_btn text-normal" href="#" id="boton2">Seguir viendo</a>
                     </div>
 
                 </div>
@@ -393,28 +393,24 @@
         
             <div id="linea_divisoria"></div>
         
-            <form>
-                <div class="row">
-                    <div class="col-lg-8">
-                
-                        <form class="contact-form" action="contactform.php" method="post">
+            <div class="row">
+                <div class="col-lg-8">
+            
+                    <form class="contact-form" action="https://formspree.io/eduardgip85@gmail.com" method="POST">
 
-                            <input type="text" class="single-input" placeholder="Your Name" name="name" value="" required>
-                            <input type="text" class="single-input" placeholder="Email" name="mail" value="" type="email" required>
-                            <input type="text" class="single-input" placeholder="Subject" name="subject" value="" required>
-                            <textarea id="subject" class="single-input" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="text" class="single-input" placeholder="Your Name" name="name" value="" required>
+                        <input type="email" class="single-input" placeholder="Your Email" name="_replyto" value="" required>
+                        <textarea id="subject" class="single-input" name="message" placeholder="Write something.." style="height:170px"></textarea>
 
-                            <button class="emailbtn" type="submit" value="submit">Send Email</button>
+                        <button class="emailbtn" type="submit" value="submit">Send Email</button>
 
-                        </form>
+                    </form>
 
-                    </div>
+                </div>
 
-                    <div class="col-lg-4 ">
-                        Foto
-                    </div>
-
-                </form>
+                <div class="col-lg-4 ">
+                    Foto
+                </div>
 
             </div>
             
