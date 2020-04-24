@@ -1,8 +1,21 @@
+/* import tipografias */
+/*titolts*/
+@import url(https://fonts.googleapis.com/css?family=Passion+One&display=swap);
+/*text*/
+@import url(https://fonts.googleapis.com/css?family=Merienda&display=swap);
+
+.text-titol{
+    font-family: 'Passion One',cursive !important;
+}
+
+.text-normal{
+    font-family: 'Merienda' !important;
+}
+
 body {
     height: 100%;
     background-image: linear-gradient(to bottom right, #066aff, #00fff7) !important;
 }
-
 
 body::-webkit-scrollbar {
     display: none;
