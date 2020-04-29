@@ -78,7 +78,8 @@
 
                         <div class="d-flex">
                             <a class="secondary_btn text-normal" href="#idcontact" onclick="checkCookie('btnContacto')"><span>Contact</span></a>
-                            <a class="secondary_btn text-normal" href="#" onclick="btnCV()"><span>Get CV</span></a>
+                            <a class="secondary_btn text-normal" href="./docs/cv.pdf" onclick="btnCV()" download target="_blank">Go to my CV</a>
+                            
                         </div>
 
                     </div>
@@ -388,19 +389,19 @@
         <div class="container">
 
             <div id="titulosection">
-                <h1 class="text-titol">Contact</h1>
+                <h1 class="text-titol">CONTACT</h1>
             </div>
         
             <div id="linea_divisoria"></div>
         
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8" id="contactarea">
             
                     <form class="contact-form" action="https://formspree.io/eduardgip85@gmail.com" method="POST">
 
                         <input type="text" class="single-input" placeholder="Your Name" name="name" value="" required>
                         <input type="email" class="single-input" placeholder="Your Email" name="_replyto" value="" required>
-                        <textarea id="subject" class="single-input" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                        <textarea id="subject" class="single-input" name="message" placeholder="Write something.." style="height:330px"></textarea>
 
                         <button class="emailbtn" type="submit" value="submit">Send Email</button>
 
@@ -408,8 +409,8 @@
 
                 </div>
 
-                <div class="col-lg-4 ">
-                    Foto
+                <div class="col-lg-4 " id="imagearea">
+                    <img src="img/jo.jpg" alt="" style="width: 100%;">
                 </div>
 
             </div>
