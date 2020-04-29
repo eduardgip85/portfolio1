@@ -384,6 +384,21 @@ input[type=submit]:hover {
     .navbar-brand img{
         width: 15%;
     }
+
+    /* foto */
+    #contactarea {
+        order: 2;
+    }
+
+    #imagearea{
+        order: 1;
+        width: 50%;
+        left: 25%;
+    }
+    
+    .emailbtn{
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 801px){
