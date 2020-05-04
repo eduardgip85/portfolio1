@@ -67,6 +67,18 @@ body::-webkit-scrollbar {
     /* background-color: #69b6ec; */
 }
 
+/*visual de la presentacion del banner*/
+.banner_content h1
+{
+    font-size: 50px;
+}
+
+.banner_content h5{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+/*botones de presentacion*/
 .presentacion_area a
 { 
     padding: 10px; /* separacion entre los botones de la presentacion */
