@@ -258,7 +258,7 @@ input[type=submit]:hover {
 
 /* card de projecte */
 .card-project{
-    height: 35vw;
+    height: 37vw;
 }
 
 /* tema logo */
@@ -282,6 +282,7 @@ input[type=submit]:hover {
     background-color: rgb(255, 171, 37);
     color: white;
 }
+
 
 
 /* Si la pantalla es mas pequeña que 800px */
