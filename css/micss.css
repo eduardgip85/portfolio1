@@ -272,7 +272,11 @@ input[type=submit]:hover {
 
 /* card de projecte */
 .card-project{
+<<<<<<< HEAD
     height: 37vw;
+=======
+    height: 35vw;
+>>>>>>> 9cf3cc5964cb5a49571ff6c2497d8d11c3c370b7
 }
 
 /* tema logo */
@@ -290,13 +294,21 @@ input[type=submit]:hover {
     border-radius: 5px;
     border: 2px solid #FF9D00;
 }
+<<<<<<< HEAD
 
 .emailbtn:hover{
     text-decoration: none;
     background-color: rgb(255, 171, 37);
     color: white;
 }
+=======
+>>>>>>> 9cf3cc5964cb5a49571ff6c2497d8d11c3c370b7
 
+.emailbtn:hover{
+    text-decoration: none;
+    background-color: rgb(255, 171, 37);
+    color: white;
+}
 
 
 /* Si la pantalla es mas pequeña que 800px */
