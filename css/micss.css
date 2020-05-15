@@ -303,6 +303,14 @@ input[type=submit]:hover {
     color: white;
 }
 
+.contact-form textarea { 
+    max-height: 200px;
+}
+
+#elevator{
+    padding-top: 10px;
+}
+
 
 /* Si la pantalla es mas pequeña que 800px */
 @media (max-width: 800px){
@@ -415,10 +423,8 @@ input[type=submit]:hover {
         order: 2;
     }
 
-    #imagearea{
+    #elevator{
         order: 1;
-        width: 50%;
-        left: 25%;
     }
     
     .emailbtn{
