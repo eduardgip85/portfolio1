@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
 /* presentacion area */
 .presentacion_area
 {
-    padding: 200px 150px 200px 250px; /* top- right- bottom- left- */
+    padding: 200px 150px 150px 250px; /* top- right- bottom- left- */
     /* background-color: #69b6ec; */
 }
 
@@ -272,7 +272,7 @@ input[type=submit]:hover {
 
 /* card de projecte */
 .card-project{
-    height: 37vw;
+    height: auto;
 }
 
 /* tema logo */
@@ -405,6 +405,11 @@ input[type=submit]:hover {
         width: 15%;
     }
 
+    /* tema logo */
+    .navbar-brand{
+        margin-right: 0;
+    }
+
     /* foto */
     #contactarea {
         order: 2;
@@ -419,6 +424,7 @@ input[type=submit]:hover {
     .emailbtn{
         margin-bottom: 20px;
     }
+
 }
 
 @media (min-width: 801px){
@@ -435,5 +441,9 @@ input[type=submit]:hover {
         transform: scale(1.1);
         box-shadow: 7px 7px 3px rgba(0,0,0,.15);
     
+    }
+
+    #idskillscartas .card-img-top{
+        padding: 10px;
     }
 }
