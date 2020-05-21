@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
 /* presentacion area */
 .presentacion_area
 {
-    padding: 200px 150px 150px 250px; /* top- right- bottom- left- */
+    padding: 200px 150px 75px 250px; /* top- right- bottom- left- */
     /* background-color: #69b6ec; */
 }
 
