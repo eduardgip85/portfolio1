@@ -23,6 +23,18 @@ function getCookie(cname) {
 }
 
 function checkCookie(nombreCookie){
+
+  //funcion para cambiar el active del nav-bar con click
+  $(document).ready(function () { 
+              
+    $('ul.navbar-nav > li') 
+            .click(function (e) { 
+        $('ul.navbar-nav > li') 
+            .removeClass('active'); 
+        $(this).addClass('active'); 
+    }); 
+  }); 
+
   var valor=getCookie(nombreCookie);
   if (valor !== 0) {
       valor++;
